@@ -17,6 +17,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2484
 TARGET_SCREEN_WIDTH := 1116
 
+# Camera firmware
+PRODUCT_PACKAGES += \
+    firmware_explorer_ddr_data.bin_symlink
+
 # Device state
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/devicestate/device_state_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/devicestate/device_state_configuration.xml \
