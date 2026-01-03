@@ -1,2 +1,14 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
 soong_namespace {
+}
+
+install_symlink {
+    name: "firmware_explorer_ddr_data.bin_symlink",
+    device_specific: true,
+    installed_location: "firmware/explorer/ddr_data.bin",
+    symlink_target: "/mnt/vendor/persist/explorer/ddr_data.bin",
 }
