@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display/displayconfig_main.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946704981769859.xml \
     $(LOCAL_PATH)/configs/display/displayconfig_main.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946717172870531.xml \
     $(LOCAL_PATH)/configs/display/displayconfig_sub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946316123810436.xml \
     $(LOCAL_PATH)/configs/display/display_layout_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_layout_configuration.xml
