@@ -57,6 +57,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22899/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/22899/build.NA.prop \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/22899/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/22899/build.default.prop
 
+# Sensors
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.barometer.xml \
+    frameworks/native/data/etc/android.hardware.sensor.hinge_angle.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.hinge_angle.xml
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
