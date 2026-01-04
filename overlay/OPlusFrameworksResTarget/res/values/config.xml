@@ -9,6 +9,12 @@
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
     <bool name="config_automatic_brightness_available">true</bool>
 
+    <!-- The device states (supplied by DeviceStateManager) that should be treated as open by the
+         device fold controller. Default is empty. -->
+    <integer-array name="config_openDeviceStates">
+        <item>3</item>
+    </integer-array>
+
     <!-- The device states (supplied by DeviceStateManager) that should be treated as folded by the
          display fold controller. Default is empty. -->
     <integer-array name="config_foldedDeviceStates">
@@ -18,11 +24,29 @@
         <item>102</item>
     </integer-array>
 
+    <!-- The device states (supplied by DeviceStateManager) that should be treated as half-folded by
+     the display fold controller. Default is empty. -->
+    <integer-array name="config_halfFoldedDeviceStates">
+        <item>2</item>
+    </integer-array>
+
     <!-- When a device enters any of these states, it should be woken up. States are defined in
          device_state_configuration.xml. -->
     <integer-array name="config_deviceStatesOnWhichToWakeUp">
         <item>3</item>
     </integer-array>
+
+    <!-- When a device enters any of these states, it should go to sleep. States are defined in
+         device_state_configuration.xml. -->
+    <integer-array name="config_deviceStatesOnWhichToSleep">
+        <item>0</item>
+    </integer-array>
+
+    <!-- Indicates that the device supports having more than one internal display on at the same
+         time. Only applicable to devices with more than one internal display. If this option is
+         set to false, DisplayManager will make additional effort to ensure no more than 1 internal
+         display is powered on at the same time. -->
+    <bool name="config_supportsConcurrentInternalDisplays">false</bool>
 
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
          percent. The length of this array is assumed to be one greater than
@@ -451,14 +475,12 @@
          built-in related configs.
          -->
     <string-array name="config_displayUniqueIdArray" translatable="false">
-        <item>local:4630946704981769859</item>
         <item>local:4630946717172870531</item>
         <item>local:4630946316123810436</item>
     </string-array>
 
     <!-- The display cutout path config for each display in a multi-display device. -->
     <string-array name="config_displayCutoutPathArray" translatable="false">
-        <item>@string/config_mainBuiltInDisplayCutout</item>
         <item>@string/config_mainBuiltInDisplayCutout</item>
         <item>@string/config_secondaryBuiltInDisplayCutout</item>
     </string-array>
@@ -467,19 +489,7 @@
          -->
     <string-array name="config_displayCutoutApproximationRectArray" translatable="false">
         <item>@string/config_mainBuiltInDisplayCutout</item>
-        <item>@string/config_mainBuiltInDisplayCutout</item>
         <item>@string/config_secondaryBuiltInDisplayCutout</item>
-    </string-array>
-
-    <!-- List of the labels of requestable device state config values -->
-    <string-array name="config_deviceStatesAvailableForAppRequests">
-        <item>devicestate_closed</item>
-        <item>devicestate_tent</item>
-        <item>devicestate_half_opened</item>
-        <item>devicestate_opened</item>
-        <item>devicestate_all</item>
-        <item>devicestate_all2</item>
-        <item>devicestate_sub_default</item>
     </string-array>
 
 </resources>
