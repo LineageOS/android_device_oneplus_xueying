@@ -23,7 +23,7 @@
       <address>4630946316123810436</address>
     </display>
     <display enabled="false">
-      <address>4630946704981769859</address>
+      <address>4630946717172870531</address>
     </display>
   </layout>
 
@@ -34,7 +34,7 @@
       <address>4630946316123810436</address>
     </display>
     <display enabled="false">
-      <address>4630946704981769859</address>
+      <address>4630946717172870531</address>
     </display>
   </layout>
 
@@ -42,7 +42,7 @@
   <layout>
     <state>2</state>
     <display defaultDisplay="true" enabled="true">
-      <address>4630946704981769859</address>
+      <address>4630946717172870531</address>
     </display>
     <display enabled="false">
       <address>4630946316123810436</address>
@@ -53,43 +53,10 @@
   <layout>
     <state>3</state>
     <display defaultDisplay="true" enabled="true">
-      <address>4630946704981769859</address>
+      <address>4630946717172870531</address>
     </display>
     <display enabled="false">
       <address>4630946316123810436</address>
-    </display>
-  </layout>
-
-  <!-- ALL -->
-  <layout>
-    <state>99</state>
-    <display defaultDisplay="true" enabled="true">
-      <address>4630946704981769859</address>
-    </display>
-    <display defaultDisplay="false" enabled="true">
-      <address>4630946316123810436</address>
-    </display>
-  </layout>
-
-  <!-- ALL -->
-  <layout>
-    <state>100</state>
-    <display defaultDisplay="false" enabled="true">
-      <address>4630946704981769859</address>
-    </display>
-    <display defaultDisplay="true" enabled="true">
-      <address>4630946316123810436</address>
-    </display>
-  </layout>
-
-  <!-- SUB_SCREEN_ONLY_DEFAULT -->
-  <layout>
-    <state>102</state>
-    <display defaultDisplay="true" enabled="true">
-      <address>4630946316123810436</address>
-    </display>
-    <display enabled="false">
-      <address>4630946704981769859</address>
     </display>
   </layout>
 </layouts>
