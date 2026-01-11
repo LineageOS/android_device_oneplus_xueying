@@ -1335,6 +1335,31 @@ odm/etc/nfc/libnfc-nci.conf_22899:vendor/etc/libnfc-nci.conf
 # NFC firmware
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_2B::vendor/firmware/sn220u.bin
 
+# Secure Element
+odm/bin/hw/android.hardware.secure_element@1.2-service-goodix
+odm/etc/init/android.hardware.secure_element@1.2-service-goodix.rc
+odm/etc/vintf/manifest/manifest_secure_element.xml
+odm/etc/vintf/manifest/manifest_vendor_goodix_secure_element.xml
+odm/lib64/lib_oplus_selement_service.so
+odm/lib64/libgs_ese.so
+odm/lib64/vendor.oplus.hardware.secure_element-V1-ndk.so
+
+# Secure Element firmware
+odm/firmware/se/goodix/cos_history
+odm/firmware/se/oplus/applet_history
+odm/firmware/se/oplus/oplus_bpf_script_install_appkey_manager_ver_01_00.210
+odm/firmware/se/oplus/oplus_bpf_script_install_appkey_manager_ver_01_02.240
+odm/firmware/se/oplus/oplus_bpf_script_install_bpf_key.50
+odm/firmware/se/oplus/oplus_bpf_script_install_cryptokey_ver_00_01.100
+odm/firmware/se/oplus/oplus_bpf_script_install_face_ver_01_00.260
+odm/firmware/se/oplus/oplus_bpf_script_install_factory_test_ver_01_00.230
+odm/firmware/se/oplus/oplus_bpf_script_install_find_device_ver_00_01.150
+odm/firmware/se/oplus/oplus_bpf_script_install_fingerprint_ver_01_00.200
+odm/firmware/se/oplus/oplus_bpf_script_install_fingerprint_ver_01_02.270
+odm/firmware/se/oplus/oplus_bpf_script_install_garbage_collection_ver_01_00.250
+odm/firmware/se/oplus/oplus_bpf_script_install_oplus_amsd.75
+odm/firmware/se/oplus/oplus_bpf_script_install_status_manager_ver_01_00.220
+
 # Sensors config
 odm/etc/sensor/config/kailua_mtp_ak0991x.json
 odm/etc/sensor/config/kailua_mtp_ak997x.json
