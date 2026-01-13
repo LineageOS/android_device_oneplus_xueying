@@ -1,6 +1,9 @@
 # Bluetooth
 bluetooth.device.default_name=OnePlus Open
 
+# Fingerprint
+persist.vendor.fingerprint.side.sensorlocation=2268::790::4630946717172870531|1116::814::4630946316123810436
+
 # Graphics
 ro.surface_flinger.primary_display_orientation=ORIENTATION_270
 ro.surface_flinger.set_idle_timer_ms=250
