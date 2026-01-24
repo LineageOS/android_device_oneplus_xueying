@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Open (CPH2551_16.0.0.201(EX01)).
+## are from OnePlus Open (CPH2551_16.0.2.400(EX01)).
 
 abl.img;AB
 aop.img;AB

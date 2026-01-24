@@ -23,8 +23,8 @@ PRODUCT_MODEL := CPH2551
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 16 BP2A.250605.015 1761919839210 release-keys" \
-    BuildFingerprint=OnePlus/CPH2551IN/OP5973L1:16/BP2A.250605.015/T.R4T3.2afb251-a48e12-a668a8:user/release-keys \
+    BuildDesc="qssi-user 16 BP2A.250605.015 1765556492424 release-keys" \
+    BuildFingerprint=OnePlus/CPH2551EEA/OP5973L1:16/BP2A.250605.015/T.R4T3.27d7a3f-659d2b-64d42d:user/release-keys \
     DeviceName=OP5973L1 \
     DeviceProduct=CPH2551 \
     SystemDevice=OP5973L1 \
