@@ -14,6 +14,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
 
 # Boot animation
+$(call soong_config_set_bool,bootanimation,multidisplay,true)
+
 TARGET_SCREEN_HEIGHT := 2484
 TARGET_SCREEN_WIDTH := 1116
 
