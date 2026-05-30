@@ -35,7 +35,6 @@ lib_fixups: lib_fixups_user_type = {
     (
         'libRGBC',
         'libhwconfigurationutil',
-        'vendor.oplus.hardware.cammidasservice-V1-ndk',
     ): lib_fixup_vendor_suffix,
 }
 
