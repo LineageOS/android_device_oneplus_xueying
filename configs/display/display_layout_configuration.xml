@@ -15,15 +15,21 @@
   -->
 
 <!-- vendor/etc/displayconfig/ -->
+<!--
+  Displays are matched by stable physical port (cover=132, inner=131) rather than
+  by EDID-derived stable display ID. The inner-panel display ID varies between
+  hardware batches; port-based matching keeps fold-state switching working on all
+  variants. See DisplayAddress.Physical.isPortMatch().
+  -->
 <layouts>
-  <!-- CLOSE -->
+  <!-- CLOSED -->
   <layout>
     <state>0</state>
     <display defaultDisplay="true" enabled="true">
-      <address>4630946316123810436</address>
+      <port>132</port>
     </display>
     <display enabled="false">
-      <address>4630946717172870531</address>
+      <port>131</port>
     </display>
   </layout>
 
@@ -31,10 +37,10 @@
   <layout>
     <state>1</state>
     <display defaultDisplay="true" enabled="true">
-      <address>4630946316123810436</address>
+      <port>132</port>
     </display>
     <display enabled="false">
-      <address>4630946717172870531</address>
+      <port>131</port>
     </display>
   </layout>
 
@@ -42,10 +48,10 @@
   <layout>
     <state>2</state>
     <display defaultDisplay="true" enabled="true">
-      <address>4630946717172870531</address>
+      <port>131</port>
     </display>
     <display enabled="false">
-      <address>4630946316123810436</address>
+      <port>132</port>
     </display>
   </layout>
 
@@ -53,10 +59,10 @@
   <layout>
     <state>3</state>
     <display defaultDisplay="true" enabled="true">
-      <address>4630946717172870531</address>
+      <port>131</port>
     </display>
     <display enabled="false">
-      <address>4630946316123810436</address>
+      <port>132</port>
     </display>
   </layout>
 </layouts>
