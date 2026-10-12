@@ -43,6 +43,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('SystemCamera =  0;  1;  0;  0;  1;  1; 0;  0;  0; 1', 'SystemCamera =  0;  0;  0;  0;  0;  0; 0;  0;  0; 0'),
     'odm/etc/init/hw/init.explorer.rc': blob_fixup()
         .regex_replace('.*copy_update_engine_log.*', ''),
+    'odm/etc/resourcemanager.xml': blob_fixup()
+        .regex_replace('<speaker_protection_enabled>1</speaker_protection_enabled>', '<speaker_protection_enabled>0</speaker_protection_enabled>'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V3-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
     (
