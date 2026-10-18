@@ -94,6 +94,30 @@
       },
       "revId": "37c715e5b05025e7e644ce2aecf9e2b82a51fe86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "296fc15c_f5a4b419",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 1315,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-18T17:19:34Z",
+      "side": 1,
+      "message": "With https://review.lineageos.org/c/LineageOS/android_device_oneplus_sm8550-common/+/507484 -\u003e https://github.com/TheMuppets/proprietary_vendor_oneplus_sm8750-common/commit/0fca846e2c4aca37a53c5f8b5012952ae14c836a (or the equivalent of that for sm8550). The file is loaded from vendor.",
+      "parentUuid": "bf6f8004_bb8213c7",
+      "range": {
+        "startLine": 1315,
+        "startChar": 0,
+        "endLine": 1315,
+        "endChar": 78
+      },
+      "revId": "37c715e5b05025e7e644ce2aecf9e2b82a51fe86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
