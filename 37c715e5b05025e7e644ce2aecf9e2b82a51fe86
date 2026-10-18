@@ -70,6 +70,30 @@
       },
       "revId": "37c715e5b05025e7e644ce2aecf9e2b82a51fe86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf6f8004_bb8213c7",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 1315,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-18T17:16:42Z",
+      "side": 1,
+      "message": "I still don\u0027t follow you. Do you want to point some issue? Can you elaborate a bit?",
+      "parentUuid": "7b725c7c_add90c0b",
+      "range": {
+        "startLine": 1315,
+        "startChar": 0,
+        "endLine": 1315,
+        "endChar": 78
+      },
+      "revId": "37c715e5b05025e7e644ce2aecf9e2b82a51fe86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
