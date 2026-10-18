@@ -1,0 +1,14 @@
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+
+aconfig_values {
+    name: "aconfig_values-xueying-surfaceflinger",
+    package: "com.android.graphics.surfaceflinger.flags",
+    srcs: ["stable_edid_ids_flag_values.textproto"],
+}
+
+aconfig_value_set {
+    name: "aconfig_value_set-xueying",
+    values: ["aconfig_values-xueying-surfaceflinger"],
+    visibility: ["//visibility:public"],
+}

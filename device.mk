@@ -27,6 +27,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/devicestate/device_state_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/devicestate/device_state_configuration.xml \
 
 # Display
+PRODUCT_RELEASE_CONFIG_MAPS += $(LOCAL_PATH)/configs/release/release_config_map.textproto
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig_main.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_port_131.xml \
     $(LOCAL_PATH)/configs/display/displayconfig_sub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_port_132.xml \
