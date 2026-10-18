@@ -118,6 +118,30 @@
       },
       "revId": "37c715e5b05025e7e644ce2aecf9e2b82a51fe86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d9f41a0_decb25b2",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 1315,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-10-18T17:32:05Z",
+      "side": 1,
+      "message": "it\u0027s nearer to your stack. But we need to patch the binaries. https://github.com/Evolution-X-Devices/hardware_dolby/tree/cnb-aospa",
+      "parentUuid": "296fc15c_f5a4b419",
+      "range": {
+        "startLine": 1315,
+        "startChar": 0,
+        "endLine": 1315,
+        "endChar": 78
+      },
+      "revId": "37c715e5b05025e7e644ce2aecf9e2b82a51fe86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
