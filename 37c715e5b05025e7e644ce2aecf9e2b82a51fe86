@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70d751d2_73534278",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 1315,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-10-18T16:45:44Z",
+      "side": 1,
+      "message": "are you sure? Maybe there\u0027s a device receipt?",
+      "range": {
+        "startLine": 1315,
+        "startChar": 0,
+        "endLine": 1315,
+        "endChar": 78
+      },
+      "revId": "37c715e5b05025e7e644ce2aecf9e2b82a51fe86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
