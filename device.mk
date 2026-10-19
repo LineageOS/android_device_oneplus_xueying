@@ -80,6 +80,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
 
+# Touch
+$(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/include)
+$(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,GESTURE_ENABLE_INDEP_NODES,\
+    /proc/touchpanel/double_tap_enable_indep /proc/touchpanel1/double_tap_enable_indep)
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.oplus
