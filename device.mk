@@ -53,7 +53,8 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget
 
 # Power
-$(call soong_config_set,qtipower,tap_to_wake_node,/proc/touchpanel/double_tap_enable)
+$(call soong_config_set,qtipower,tap_to_wake_node,\
+    /proc/touchpanel/double_tap_enable /proc/touchpanel1/double_tap_enable)
 
 # Regional properties
 REGIONAL_PROP_FILES := $(wildcard $(LOCAL_PATH)/properties/*/*.prop)
