@@ -89,5 +89,10 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_VIBRATOR_HAL,USE_EFFECT_STREAM,true)
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oneplus/sm8550-common/common.mk)
 
+# Touch
+$(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,device/oneplus/xueying/touch/include)
+$(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,GESTURE_ENABLE_INDEP_NODES,\
+    /proc/touchpanel/double_tap_enable_indep /proc/touchpanel1/double_tap_enable_indep)
+
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/xueying/xueying-vendor.mk)
